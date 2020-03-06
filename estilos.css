@@ -51,6 +51,25 @@
     display: table;
 }
 
+.flex-container{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.flex-container div{
+   background-color: lightseagreen;
+   font-size: 2em;
+   padding: 0.5em;
+   margin: 0.25em;
+}
+
 .coral{
     background-color: lightcoral;
 }
